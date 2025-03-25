@@ -387,7 +387,7 @@ export default function Home() {
                   animate={{ opacity: 1 }}
                   className="text-gray-300 mb-4"
                 >
-                  "{review.text}"
+                  &quot;{review.text}&quot;
                 </motion.p>
                 <motion.div
                   initial={{ opacity: 0 }}
